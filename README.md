@@ -56,7 +56,7 @@ Hook Allure's "Copy to clipboard" functionality to transform the copied content.
    - 从 Allure 报告中提取测试用例的完整路径。
    - 将路径格式转换为 Pytest 可识别的格式。
 2. **一键复制路径**：
-   - 在 Allure 报告页面中添加一个“复制路径”按钮。
+
    - 点击按钮后，自动将转换后的路径复制到剪贴板。
 3. **支持多种路径格式**：
    - 支持处理不同格式的 Allure 报告路径。
@@ -130,7 +130,6 @@ Hook Allure's "Copy to clipboard" functionality to transform the copied content.
    - 手动修改路径繁琐且容易出错。
 2. **解决方案**：
    - 使用油猴脚本自动化处理路径转换。
-   - 添加“复制路径”按钮，支持一键复制。
 3. **油猴脚本实现**：
    - 提取 Allure 报告中的路径并转换为 Pytest 格式。
    - 使用 `fallbackWriteToClipboard` 实现剪贴板功能。
