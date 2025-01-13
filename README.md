@@ -137,4 +137,3 @@ Hook Allure's "Copy to clipboard" functionality to transform the copied content.
    - 安装油猴插件并创建新脚本。
    - 在 Allure 报告页面中点击按钮复制路径。
 
-希望本文的解决方案能帮助你更高效地使用 Allure 和 Pytest！如果有任何问题或建议，欢迎留言讨论。
