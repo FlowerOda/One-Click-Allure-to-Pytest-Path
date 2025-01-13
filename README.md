@@ -72,29 +72,19 @@ Hook Allure's "Copy to clipboard" functionality to transform the copied content.
 ### 安装步骤
 
 1. **安装油猴插件**：
-
    - 打开浏览器（如 Chrome、Firefox）。
-
    - 访问 [Tampermonkey 官网]()。
-
-   - ```
-     https://www.tampermonkey.net/
-     ```
-
    - 下载并安装适合你浏览器的油猴插件。
 
 2. **创建新脚本**：
-
    - 点击浏览器右上角的油猴图标。
    - 选择“创建新脚本”。
 
 3. **粘贴脚本代码**：
-
    - 将上述油猴脚本代码粘贴到编辑器中。
    - 修改 `@match` 字段，确保脚本适用于你的 Allure 报告地址。
 
 4. **保存脚本**：
-
    - 点击“文件” -> “保存”。
    - 脚本会自动生效。
 
